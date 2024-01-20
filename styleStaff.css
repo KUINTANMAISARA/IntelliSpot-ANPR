@@ -1,0 +1,138 @@
+
+    /* --- ROOT VARIABLES ----*/
+    :root {
+        --color-primary: #7380ec;
+        --color-danger: #ff7782;
+        --color-success: #41f1b6;
+        --color-warning: #ffbb55;
+        --color-white: #fff;
+        --color-info-dark: #7d8da1;
+        --color-info-light: #dce1eb;
+        --color-dark: #363949;
+        --color-light: rgba(132,139,200,0.18);
+        --color-primary-variant: #111e88;
+        --color-dark-variant: #677483;
+        --color-background: #f6f6f9;
+
+        --card-border-radius: 2rem;
+        --border-radius-1: 0.4rem;
+        --border-radius-2: 0.8rem;
+        --border-radius-3: 1.2rem;
+
+        --card-padding: 1.8rem;
+        --padding-1:1.2rem;
+
+        --box--shadow: 0 2rem 3rem var(var(--color-light));
+
+    }
+    main .plateScanner .scannerDetails {
+    
+        padding: var(--card-padding);
+        border: white;
+        height:100%;
+        width: 90%;
+        right: 100%;
+        bottom: 20%;
+    }
+    
+    
+    main .plateScanner h1{
+        color: #363949;
+    }
+    
+   
+    main .plateScanner {
+        background-color: #ffbb55;
+        /*background-color: var(--color-dark-variant); */
+        border-radius: var(--card-border-radius);
+        padding: var(--card-padding);
+        height:60%;
+        width: 100%;
+        display: grid;
+        gap: 1.6rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+    .plateScanner .scannerContainer {
+    
+        padding: var(--card-padding);
+        /*border: white;
+        border-style: dashed;*/
+        width: 30vw;
+        height: 30vh;
+        /*right: 53%;*/
+        position: absolute;
+        top: 49%;
+        left: 15%;
+       
+      
+    }
+
+    .scannerContainer .material-icons-sharp{
+        color: aliceblue;
+        top: 80%;
+        font-size: 50px;
+        left: 0;
+    }
+    
+    .scannerContainer button {
+        font-size: 20px;
+        display: flex;
+        padding: var(--card-padding);
+        border-radius: var(--border-radius-1);
+        height: 20%;
+    }
+    
+    .scannerContainer button:hover {
+        cursor: pointer;
+        background-color: var(--color-success);
+        transition: all 0.3s ease;
+    }
+    
+    .scannerContainer h3{
+        font-size: 20px;
+    }
+    
+    
+    .scannerDetails form .buttonCompound {
+       cursor: pointer;
+       padding: var(--card-padding);
+       border-radius: var(--card-border-radius);
+       background-color: #363949;
+       color: #f6f6f9;
+       font-family: 'Arial';
+       font-size: 20px;
+       font-weight: bold;
+       letter-spacing: 2px;
+    }
+    
+    .scannerDetails form .buttonCompound:hover {
+        background-color:#ff7782;
+        transition: all 0.4s ease;
+        color: #363949;
+    }
+    
+    .plateScanner .scannerContainer form input{
+        padding: var(--card-padding);
+        border-radius: var(--border-radius-1);
+        background-color: #dce1eb;
+        cursor: pointer;
+        border-style: none;
+    
+    }
+    
+    .plateScanner .scannerContainer form input:hover{
+        background-color: #7380ec;
+    }
+    
+    .scannerDetails form .input_box{
+        text-decoration: none;
+        border-style: none;
+    }
+
+    .scannerDetails form .input_box input{
+       border-radius: var(--border-radius-3);
+    }
+
+

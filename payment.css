@@ -1,0 +1,79 @@
+body {
+    background-color: #ffcf00;
+    
+}
+
+main {
+    background-color: black;
+    height: 70%;
+    width: 50%;
+    position:relative;
+    padding: 0.5%;
+    border-radius: 0.3rem;
+}
+
+main h1 {
+    color:#ffcf00;
+    padding:  15px;
+    
+}
+
+.container{
+    background-color: white;
+    padding: 30px;
+    border: 20px;
+    display: block;
+    text-align: center;
+    height: 70%;
+    border-radius: 0.3rem;
+    
+}
+
+.container h3{
+    font-size: 15px;
+}
+
+main .container img{
+    width: 20%;
+}
+
+.formContainer{
+    padding: 10px;
+}
+
+form .input_box {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.input_box input {
+    
+    border-bottom: 1.5px solid #aaaaaa;
+    padding: 0 30px;
+}
+
+button {
+    background-color: #ffcf00;
+    color: black;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 6rem 7rem;
+}
+
+button:hover{
+    background-color: #ffd626;
+}
+
+.cancel {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

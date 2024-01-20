@@ -1,0 +1,135 @@
+body{
+    background-color:darkgrey;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container{
+    background-color:darkgrey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+   
+    
+
+}
+
+.buttonContainer{
+    display: flex;
+    padding: 2%;
+   
+}
+
+.button1{
+    padding: 5%;
+    height: 100%;
+    width: 100%;
+    display:inline-flexbox;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.button2{
+    padding: 5%;
+   
+    height: 100%;
+    width: 100%;
+    display:inline-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 button{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 7px;
+    border-color:silver;
+    margin-left: 50%;
+    box-shadow: 0 5rem 7rem;
+    font-size: 20px;
+    font-family:sans-serif;
+    transition: all 0.4s ease;
+   
+    
+}
+
+.button1 button:hover{
+    background-color:rgb(30, 182, 133);
+    
+}
+
+
+.button2 button{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family:sans-serif;
+    box-shadow: 0 5rem 7rem;
+    border-color:silver;
+    transition: all 0.4s ease;
+}
+
+.button2 button:hover{
+    background-color:rgb(194, 65, 65);
+    
+}
+
+.circle{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border-style:groove;
+   
+}
+
+
+
+.circle .uitmImg{
+    background-image: url('./images/logouitm.png');
+    background-repeat: no-repeat;
+    background-size:contain; 
+    height: 150px;
+    width: 200px;
+    margin-right: 50%;
+    margin-left: 33%;
+    margin-top: 20px
+    
+}
+
+.circle .barCode{ 
+    background-image: url('./images/qr.png'); 
+    background-repeat: no-repeat;
+    background-size:contain; 
+    height: 200px;
+    width: 200px;
+    margin-right: 50%;
+    margin-left: 33%;
+    margin-bottom: 10%;
+
+}
+
+.circle .valid{ 
+    height: 50px;
+    width: 200px;
+    margin-right: 50%;
+    margin-left: 33%;
+    margin-bottom: 60%;
+}
+
+form input{
+    height: 20px;
+    padding: 0.16rem;
+    text-align: center;
+    
+    border-radius: 8px;
+  
+}
